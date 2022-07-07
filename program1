@@ -6,9 +6,14 @@ public class Rank extends Studentabstraction {
 	{
 		System.out.println("the result is dispalyed on notice board");
 	}
+	public void show(){
+		system.out.println("Hi this is Lavanya");
+	}
 	public static void main(String[] args) {
 		Rank r=new Rank();
 		r.display();
 		r.marks();
 	}
+
+	
 }
